@@ -1,0 +1,281 @@
+
+
+
+.nav-bg{
+    background-color: rgba(211,211,211,0.5);
+}
+
+.background-text{
+
+    margin-top: 250px;
+    color: white;
+    font-family: serif--light;
+    font-size: 70px;
+    text-shadow: 3px 3px black;
+   font-weight: bold;
+   margin-left: 10px;
+
+}
+
+
+
+.nav-button{
+    
+    background-color: #5392f9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    
+}
+
+.nav-button a{
+    color: white;
+    text-decoration: none;
+}
+.nav-text {
+    font-size: 20px;
+    padding-top: 15x;
+    margin-top: 10px;
+}
+
+
+
+.bg-image-1 {
+    background-image: url('https://i.pinimg.com/originals/0a/6f/a0/0a6fa0782e1710d1f368a5360d6c15f7.jpg');
+}
+
+.bg-image-2 {
+    background-image: url('https://awallpaperaday.com/wp-content/uploads/2018/04/hotel-1920x1080-1860x1046.jpg');
+}
+
+.bg-image-3 {
+    background-image: url('images/pexels-marven-thieme-929355.jpg');
+}
+
+.carousel-image {
+    height: 840px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.about-hotel {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.icon {
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: #F99417;
+    border:  none;
+    padding: 35px;
+    background-color: #9EDDFF;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.icon-text {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.p-text{
+    font-size: 14px;
+}
+
+.villa-text {
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.bar a {
+    text-decoration: none;
+    font-family: serif--light;
+    color: gray;
+}
+
+.facilities h4 {
+    font-family: serif--light;
+    text-decoration: none;
+    
+}
+
+.button-services {
+    text-align: center;
+    color: gray;
+}
+
+.container-info {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.food-img {
+    height: 200px;
+}
+
+.c-awards {
+    height: 350px;
+}
+
+.info-1 {
+    margin-left: 80px;
+}
+.footer-main{
+    color: black;
+    font-family: serif--light;
+}
+
+.footer-icon {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.footer-icon:hover {
+    font-size: 40px;
+    padding: 10px;
+    color: red;
+}
+.footer-info{
+    font-size: 16px;
+    color: gray;
+}
+
+
+.box-area {
+    width: 1000px;
+}
+
+.login-signup{
+    background-color: lightgray;
+}
+
+.hotel-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.h-background{
+    
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 20px;
+    margin-left: 10px;
+}
+.h-header {
+    font-size: 25px;
+}
+
+.h-star {
+    font-size: 13px;
+    color: orangered;
+}
+
+.h-offers {
+    font-size: 15px;
+    opacity: 0.7;
+
+}
+
+.h-breakfast {
+    font-size: 14px;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.h-popular {
+    font-size: 16px;
+    color: red;
+    margin-top: 15px;
+}
+
+.h-excellent {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.h-reviews {
+    font-size: 11px;
+    opacity: 0.6;
+}
+
+.h-number {
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 7px;
+    font-size: 13px;
+    color: white;
+    
+}
+
+.h-price{
+    color: red;
+    font-size: 30px;
+}
+
+.h-cancellation {
+    color: green;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.d-filters {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px ;
+}
+
+.d-populars {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: serif--light;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-backgound {
+    background-color: rgba(211,211,211,0.5);
+}
+
+.p-payments{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.payment-text{
+    margin-top: 40px;
+}
+
+.payment-text a{
+    text-decoration: none;
+    margin-top: 50px;
+    color: black;
+}
+
+.dining-img {
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.exp-text {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.awards-text {
+    text-align: center;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 20px;
+    
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" type="image/png" href="images/logo.png"/>
+    </head>
+<body>
+  <div class="nav-bg" >
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png " alt="logo" width="40px" height="35px"></a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        
+          <div class="offcanvas-header border-bottom bg-secondary">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand" href="#"><img src="images/logo.png " alt="logo" width="40px" height="35px"></a></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+  
+          <div class="offcanvas-body d-flex flex-column flex-lg-row">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+      
+              <li class="nav-item mx-2">
+                <p class="nav-text"><a class="nav-link" href="index.html">HOME</a></p>
+              </li>
+              <li class="nav-item mx-2">
+                <p class="nav-text"><a class="nav-link " href="#about">ABOUT</a></p>
+              </li>
+              <li class="nav-item mx-2">
+                <p class="nav-text"><a class="nav-link" href="#services">SERVICES</a></p>
+              </li>
+              <li class="nav-item mx-2">
+                <p class="nav-text"><a class="nav-link" href="#contact">CONTACT</a></p>
+              </li>
+             
+            </ul>
+  
+            <div class="d-flex justify-content-center align-items-center gap-4 flex-lg-row">
+              <a href="login.html" class="text-decoration-none px-3 py-1 bg-primary rounded-2 text-white">Login</a>
+              <a href="singin.html" class="text-decoration-none px-3 py-1 bg-primary rounded-2 text-white">Sign Up</a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="row border rounded-5   box-area login-signup">
+            <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"  >
+                <div class="featured-image mb-3">
+                    <img src="images/sample.png" class="img-fluid"  alt="darylhotel" style="border-radius: 20px; margin-top: 10px;" width="750px" s>
+                </div>
+                
+
+            </div>
+            <div class="col-md-6 right-box">
+                <div class="row align-items-center">
+                    <div class="header-text">
+                        <p class="fs-1 my-5" style="font-family: serif--light;">Welcome Back !</p>
+                    </div>
+                    <div class="input-group d-flex justify-content-between">
+                        <input type="text" class="form-control form-control-lg bg-light fs-6 mb-3" placeholder="Email">
+                    
+                    <div class="input-group">
+                        <input type="password" class="form-control form-control-lg bg-light fs-6 mb-2" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="formCheck">
+                        <label for="formCheck" class="form-check-label text-secondary mb-5"><small>Remember Me</small></label>
+                    </div>
+                  <div>
+                    <small><a href="singin.html">Create Account</a></small>
+                  </div>
+                </div>
+                </div>
+                <div class="input-group">
+                    <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Login</button>
+                </div>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">Hello Daryl!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          You have successfully signed in.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+                
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 container-info " id="contact">
+      <div class="row info-1">
+        <div class="col-md-4">
+          <h2 class="footer-main">Phone Support</h2>
+          <p class="footer-info">24 HOURS A DAY</p>
+          <p>+63920-622-4826</p>
+          <p style="opacity: 0.7;">customersupport@darylhotel.com</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-main">Follow US</h2>
+          <p class="footer-info">Social Media Channels</p>
+          <div class="row  align-items-center">
+            <div class="col-md-3">
+              <i class="fa-brands fa-facebook footer-icon"></i>
+            </div>
+            <div class="col-md-3">
+              <i class="fa-brands fa-twitter footer-icon"></i>
+            </div>
+            <div class="col-md-3">
+              <i class="fa-brands fa-youtube footer-icon"></i>
+            </div>
+            <div class="col-md-3">
+              <i class="fa-brands fa-instagram footer-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h2 class="footer-main">OUR NEWS LETTER</h2>
+          <p class="footer-info">SIGN UP FOR A SPECIAL OFFER</p>
+          <label for="email" ></label>
+          <input type="text" placeholder="Email">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+Sign Up
+</button>
+
+<!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Congrats !</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Congratulations on successfully subscribing to a newsletter! You're now on your way to receiving informative and engaging content in your inbox, delivered straight to you on a regular basis.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+</body>
+</html>
